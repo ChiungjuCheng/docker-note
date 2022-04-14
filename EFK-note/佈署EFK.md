@@ -5,7 +5,7 @@ https://docs.fluentd.org/container-deployment/docker-compose
 1. 將docker的log轉到 fluent-bit
 2. Spring boot 直接轉到flunet-bit
 
-# 實作
+# 實作將docker的log轉到fluent-bit
 使用EFK資料夾
 ```
 docker-compose up -d
