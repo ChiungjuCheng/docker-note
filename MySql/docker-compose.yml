@@ -1,0 +1,14 @@
+version: "3"
+services:
+  mysql:
+    image: mysql
+    container_name: spikemysql
+    ports:
+      - 3307:3306
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+    volumes:
+      - mysqldp
+volumes:
+  mysqldp:
