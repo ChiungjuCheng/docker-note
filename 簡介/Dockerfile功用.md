@@ -20,6 +20,19 @@ alpine是linux OS
 **CMD**  
 使用該image啟動時要執行的命令
 
+# 執行指令
+
+```
+docker build .  
+
+docker build run {docker id} 
+
+// tag
+docker build -t {dockerid}/projectname:versiton .
+```
+
+# Cache
+docker會對產生的image做快取 (那些在形成最終image前，那些中間image)，但如果改變Dockerfile，就不會使用Cache。
 
 ## 來源
 https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/learn/lecture/11436692#overview
