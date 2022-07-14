@@ -2,7 +2,9 @@
 介紹docker機制等觀念，以及紀錄使用docker啟動spring boot和MySql的方式。
   
 ## 簡介
-[介紹Docker的機制，目前參考來源為docker官網，搭配使用app資料夾的內容。](/%E7%B0%A1%E4%BB%8B/)
+介紹Docker的機制，目前參考來源為docker官網，搭配使用app資料夾的內容。
+[連結](/%E7%B0%A1%E4%BB%8B/)
+
 
 ## EFK + Docker
 [EFK 說明](佈署EFK.md)  
@@ -19,4 +21,5 @@
 
 
 ### 參考來源
-Udemy
+Udemy  
+[Docker guides](https://docs.docker.com/get-started/overview/)  
