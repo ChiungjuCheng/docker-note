@@ -1,6 +1,6 @@
-# 建立DockerFile
-DockerFile可以在任一路徑底下，但建議可以存放在專案的root路徑。  
-DockerFile不用副檔名，只需要將檔案名稱命名為DockerFile (注意大小寫)。  
+# 建立Dockerfile
+Dockerfile可以在任一路徑底下，但建議可以存放在專案的root路徑。  
+Dockerfile不用副檔名，只需要將檔案名稱命名為Dockerfile (注意大小寫)。  
 
 ```
 FROM openjdk:11
@@ -15,7 +15,7 @@ ENTRYPOINT:指定容器啟動後執行的命令，每個Dockerfile中只能有�
 
 
 # 產生image
-在有DockerFile的資料夾下，執行以下指令
+在有Dockerfile的資料夾下，執行以下指令
 
 ```
 docker build -t {image-name}
