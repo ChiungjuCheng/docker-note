@@ -34,5 +34,12 @@ docker run redis
 docker exec -it <redis container id> redis-cli
 ```
 
+## 補充
+### -t and -i
+To run an interactive session with a running Docker container we use the docker exec command with the -i and -t flags, or -it for shorter. The -i flag allow us to interact with the container, while the -t flag is used to open a terminal into the container.
+The -i flag, or --interactive, instructs Docker to keep STDIN open allowing you to continuously interact with the container.
+The -t flag, or --tty, allocates a pseudo-TTY which creates the terminal shell.  
+https://stackoverflow.com/questions/22272401/what-does-it-mean-to-attach-a-tty-std-in-out-to-dockers-or-lxc
+
 # Reference
 * [Official document](https://docs.docker.com/engine/reference/commandline/cli/)
