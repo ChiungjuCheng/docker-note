@@ -13,8 +13,7 @@ navigate to the reference to get more information.
 
 # Kubernetes Components
 Control Plane Components and Node Components.  
-TODO   
-將書本裡的概念放上來做Overview
+
 
 ## Pods
 Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.  
