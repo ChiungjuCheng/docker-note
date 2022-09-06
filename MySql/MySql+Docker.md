@@ -16,6 +16,10 @@ docker exec -it {docker container id} bash
 mysql -u root -p
 
 ```
+or install mysql client on host and run this
+```
+mysql -h 127.0.0.1 -P 3307 -u root -p 
+```
 
 # 連接MySql workbench
 跟連接非Container管理的sql server一樣，只需要更改連線的port。
